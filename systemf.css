@@ -1,0 +1,33 @@
+*{
+margin0;
+padding:0;
+}
+body{
+background-color: yellow;
+}
+
+h3{
+text-align: center;
+text-decoration: underline;
+color: white
+
+}
+
+#name{
+width: 80%;
+padding: 5px;
+border-radius: 5%;
+outline:0;
+border: 1px solid pink;
+}
+
+table{
+color: white;
+background-color: green;
+border-collapse: collapse;
+font-size:16px;
+font-family: serif;
+padding:5px;
+border: 5px solid white;
+text-align: center
+}
