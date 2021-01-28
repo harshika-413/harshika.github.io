@@ -7,7 +7,7 @@ background-size:cover;
 }
 .contact-form{
 width:30%;
-background:yellow;
+background:red;
 position:center;
 top:50%;
 transform:translate(-50%,-50);
@@ -20,8 +20,8 @@ font-family: "montserrat",sans-serif;
 
 }
 .contact-form h1{
-margin-top:0;
-font-weight:200;
+margin-top:200;
+font-weight:300;
 }
 .txtb{
 border:1px solid gray;
@@ -58,7 +58,5 @@ font-size: 13px;
   margin-top: 8px;
   width: 100%
 }
-
-
 
 }
