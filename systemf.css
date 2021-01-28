@@ -3,7 +3,7 @@ margin0;
 padding:0;
 }
 body{
-background-color: yellow;
+background-color: pink;
 }
 
 h3{
@@ -22,7 +22,7 @@ border: 1px solid pink;
 }
 
 table{
-color: white;
+color: green;
 background-color: green;
 border-collapse: collapse;
 font-size:16px;
