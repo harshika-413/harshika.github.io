@@ -33,6 +33,50 @@ input:focus{
 input:in-range{
   border: 4pxs dashed black;
 }
+
+input:invalid{
+  border: 1px solid orange;
+}
+
+p{
+  color: brown;
+}
+:not(p){
+  color: black;
+}
+p:nth-child(2){
+  background-color: green;
+}
+p:nth-last-child(2){
+  background-color: yellow;
+}
+
+p:only-of-type{
+  background-color: red;
+}
+
+input:optional{
+  background-color: pink;
+}
+
+input:read-only{
+  background-color: black;
+}
+
+input:read-write{
+  background-color: lightblue;
+}
+:root{
+  background-color: orange;
+}
+:target{
+  border: 3px solid yellow;
+  background-color: black;
+}
+
+input:valid{
+  background-color: skyblue;
+}
 </style>
 </head>
 <body>
@@ -74,10 +118,62 @@ first name:<input type="text" name="firstname" ><br>
   <input type="number" min="4" max="15" value="6">
   <p>  a group of warm-blooded vertebrates constituting<p>
 
+    <h3>A demonstration of the:invalid sector</h3>
+    <input type="email" value="supportemail">
+    <p> a group of warm-blooded vertebrates constituting</p>
+
+<h1>This is a heading </h1>
+<p>this is a paragraph</p>
+<p>this is another paragraph</p>
+
+<div>this is some text in the element of the div</div>
+<a href="https://www.gmail.com" target="-blank">Link to gmail</a>
 
 
+ <h1>this is nth-child<h1>
+   <p>this is 1st paragraph</p>
+   <p>this is 2nd paragraph</p>
+   <p>this is 3rd paragraph</p>
 
 
+   <h1>this is nth-last-child<h1>
+     <p>this is 1st paragraph</p>
+     <p>this is 2nd paragraph</p>
+     <p>this is 3rd paragraph</p>
+
+<div><p>tis is a paragraph</p></div>
+
+  <div><p>this is a paragraph</p><p>this is a paragraph</p></div>
+
+<h2>A demonstration of the :optional selector:</h2>
+  <p>An optional input element:<br><input><br></p>
+  <p>A required input element:<br><input required<br></p>
+  <p><strong>Note:</strong>this is another paragraph</p>
+
+
+  <h2>A demonstration of the :read-only- selector:</h2>
+    <p>An optional input element:<br><input value="hello"><br></p>
+    <p>A required input element:<br><input required value="hello"><br></p>
+    <p><strong>Note:</strong>this is another paragraph</p>
+
+    <h2>A demonstration of the :read-write- selector:</h2>
+      <p>An optional input element:<br><input value="hello"><br></p>
+      <p>A required input element:<br><input required value="hello"><br></p>
+      <p><strong>Note:</strong>this is another paragraph</p>
+
+<h1>this is a root selector</h1>
+
+<h1> this is a heading<h1>
+  <p><a href="#news1">jump to content1</a></p>
+    <p><a href="#news2">jump to content2</a></p>
+    <p> a group of warm-blooded vertebrates constituting</p>
+    <p id="news1"><b>new content1....</b></p>
+    <p id="news2"><b>new content2....</b></p>
+
+
+<h1>A demonstration of the: valid-sector</h1>
+
+<input type="email"  value="harshika.yendluri@gmail.com">
 
 </body>
 </html>
