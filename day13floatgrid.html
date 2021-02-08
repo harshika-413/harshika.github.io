@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+  *{
+    box-sizing: border-box;
+  }
+
+  .box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+  }
+
+  .Clearfix:after {
+    content: "";
+    clear: both;
+    display:table;
+
+  }
+  </style>
+</head>
+<body>
+
+<h2>Grid Of Boxes</h2>
+<p>float boxes side by side: </p>
+
+<div class="Clearfix">
+  <div class="box" style="background-color:pink">
+    <p>some text inside the box.</p>
+  </div>
+
+  <div class="box" style="background-color:yellow">
+    <p>some text inside the box.</p>
+  </div>
+
+  <div class="box" style="background-color:green">
+    <p>some text inside the box.</p>
+  </div>
+</div>
+<p> CSS Grid Layout introduces a two-dimensional grid system to CSS. Grids can be used to lay out.
+   major page areas or small user interface ...</p>
+</body>
+</html>

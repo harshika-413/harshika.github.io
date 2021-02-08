@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<style>
+
+*{
+  box-sizing: border-box;
+}
+
+.header, .footer {
+  background-color:yellow;
+  color:green;
+  padding:20px;
+}
+.column {
+  float: left;
+  padding: 18px;
+}
+
+.clearfix::after {
+  content: "";
+ clear: both;
+ display: table;
+
+}
+
+.menu {
+  width: 24%;
+}
+.content {
+  width: 75%;
+}
+.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ .menu li{
+   padding: 8px;
+   margin-bottom: 8px;
+   background-color: pink;
+   color: brown;
+ }
+
+ .menu li:hover {
+   background-color: green;
+ }
+
+</style>
+</head>
+<body>
+<div class="header">
+<h1>Chania</h1>
+</div>
+<div class="clearfix">
+<div class="column menu">
+<ul>
+<li>The Flight</li>
+<li>The City</li>
+<li> The Island</li>
+<li>The Food</li>
+</ul>
+</div>
+<div class="column content">
+<h1>The City </h1>
+<p>Food is any substance consumed to provide nutritional support for an organism.</p>
+<p>Foods and nutrients · energy for activity, growth, and all functions of the body such as breathing, digesting food, and keeping warm</p>
+</div>
+</div>
+<div class="footer">
+<p>Footer Text</p>
+</div>
+</body>
+</html>
