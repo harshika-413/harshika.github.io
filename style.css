@@ -1,57 +1,63 @@
   body{
     margin: 150;
-    padding: 0;
+    padding: 40;
     font-family: Arial;
   }
 
 nav{
-  position: fixed;
+  position: absolute;
+  list-style-type: none;
   top:0;
   left: 0;
   width: 100%;
   height: 100px;
-  padding: 10px 90px;
-  box-sizing: border-box;
-  background:green ;
+  padding: 10px 150px;
+  background:pink ;
 
 }
-nav  .logo{
-padding: 22px 20px;
-height: 80px;
+nav .logo{
+padding: 22px 10px;
+height: 150px;
 float: left;
 font-size: 40px;
 font-weight: bold;
 text-transform: uppercase;
-color:#fff:
+color:#fff;
 
 }
 nav ul{
 list-style: none;
-float:right;
+float:center;
 margin: 0;
-padding: 0;
+padding: 0px;
 display: flex;
 }
 
+
 nav ul li a{
 line-height: 80px;
-color: #fff;
+color: black;
 padding: 12px 30px;
 text-decoration: none;
 text-transform: uppercase;
 font-size: 15px;
 font-weight: bold;
 }
+.nav li {
+  display:block;
+  font-size: 20px;
+  padding: 10px;
+}
 
 nav ul li a:hover{
-background: green;
+background: black;
 border-radius: 6px;
 
 }
 
 nav ul li a.active{
-background: #e2472f;
-color: #fff;
+background: black;
+color: red;
 border-radius: 6px;
 }
 section{
