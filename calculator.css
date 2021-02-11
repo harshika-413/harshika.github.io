@@ -1,0 +1,94 @@
+/*add css code*/
+body{
+background-color: pink;
+}
+.name{
+  position: absolute;
+  top:15px;
+  left:42%;
+  width: 80px;
+  background: yellow;
+  padding: 5px;
+
+}
+table{
+margin: auto;
+background-color: grey;
+width:290px;
+height:400px;
+text-align: center;
+border-radius: 5px;
+}
+#calculator{
+  position: absolute;
+  left:50%;
+  max-width:80%;
+  top:25%:
+}
+
+input{
+  outline: 0;
+  position: relative;
+  left: 5px;
+  top:35px;
+  border: 0;
+  color: black;
+  background-color: pink;
+  height: 40px;
+  width:60px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 5px rgba( 0,0,0,0.2);
+}
+input:hover{
+  border: 0 solid orange;
+  color: black;
+  background-color: red;
+  border-radius: 4px;
+  height: 40px;
+  width: 50px;
+  float: left;
+  margin: 5px;
+  font-size: 20px;
+  box-shadow: 0 4px black;
+
+}
+#answer{
+  width: 250px;
+  font-size: 25px;
+  text-align: center;
+  background-color: white;
+  float: left;
+}
+#answer:hover{
+  width: 250px;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 0 4px rgba(0,0,0,0.2);
+  background-color: pink;
+
+}
+
+.operator{
+  background-color: red;
+  position: relative;
+}
+.operator:hover{
+  background-color: red;
+  box-shadow: 0 4px black;
+}
+#clear{
+  float: left;
+  position: relative;
+  display: block;
+  background-color: green;
+  margin-bottom: 16px;
+}
+#clear:hover{
+  float: left;
+  display: block;
+  background-color: pink;
+  margin-bottom: 16px;
+  box-shadow: 0 5px orange;
+}

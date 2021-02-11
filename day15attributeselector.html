@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<style>
+a[target=-blank]{
+  background-color: yellow;
+}
+
+[title~=flower] {
+  border: 6px solid yellow;
+}
+[class|=top]{
+  background-color: orange;
+}
+
+[class^="top"]{
+  background-color: orange;
+}
+
+[class$="test"]{
+  background-color: blue;
+}
+
+
+
+</style>
+</head>
+<body>
+<h2>CSS [attribute] Selector</h2>
+<p>The links with a target attribute </p>
+<a href="https://www.google.com">google.com</a>
+<a href="https://www.yahoo.com" target="_blank">yahoo.com</a>
+<a href="https://www.enadu.com" target="_top">enadu.com</a>
+
+<h2>CSS [attribute~="value"] Selector</h2>
+<p>All images with the title attribute containing the word "flower" get a yellow border.</p>
+
+<img src="beautiful.jpg" title="betiful flower" width="150" height="100">
+<img src="peacock.jpg" title=" flower" width="100" height="90">
+<img src="nature.jpg" title="nature " width="180" height="140">
+
+<h2>CSS [attribute|="value"] Selector</h2>
+
+<h1 class="top-header">Welcome</h1>
+<p class="text">Hello world!</p>
+
+<h2>CSS [attribute^="value"] Selector</h2>
+
+<h1 class="top-header">Welcome</h1>
+<p class="top-text">Hello world!</p>
+
+<h2>CSS [attribute$="value"] Selector</h2>
+
+<div class="first_test">The first div element.</div>
+<div class="second">The second div element.</div>
+<div class="my-test">The third div element.</div>
+
+<h2>CSS [attribute*="value"] Selector</h2>
+
+<div class="first_test">The first div element.</div>
+<div class="second">The second div element.</div>
+<div class="my-test">The third div element.</div>
+<p class="mytest">This is some text in a paragraph.</p>
+</body>
+</html>

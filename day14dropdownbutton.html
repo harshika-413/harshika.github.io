@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.day10 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.classes {
+  position: relative;
+  display: inline-block;
+}
+
+.classes-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.classes-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.classes-content a:hover {background-color: #f1f1f1}
+
+.classes:hover .classes-content {
+  display: block;
+}
+
+.classes:hover .day10 {
+  background-color: #3e8e41;
+}
+</style>
+</head>
+<body>
+<h1>daily classes</h1>
+<p>move the mouse over the button</p>
+<div class="classes">
+<button class="day10">Day10</botton>
+<div class="classes-content">
+<a href="day10box.html">box</a>
+<a href="day10colors.html">Colors</a>
+<a href="day10fonts.html">fonts</a>
+<a href="day10googlefont.html">googlefont</a>
+</div>
+</div>
+</body>
+</html>
