@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<style>
+p.test1{
+white-space: nowrap;
+width: 200px;
+border: 1px solid black;
+overflow: hidden;
+text-overflow: clip;
+}
+p.test2{
+white-space: nowrap;
+width: 180px;
+border: 1px solid black;
+overflow: hidden;
+text-overflow: ellipsis;
+
+}
+p.test1:hover {
+  overflow: visible;
+}
+</style>
+</head>
+<body>
+<h1> The Text-Overflow Property</h1>
+<p>The following two paragraphs contains a long text that will not fit in the box.</p>
+<h2>text-Overflow: clip:
+<p class="test1">Get the latest news and articles about animals from around the world.</p>
+<h2>text-Overflow: ellipsis:
+<p class="test2">The red panda is a mammal species native to the eastern</p>
+</body>
+</html>

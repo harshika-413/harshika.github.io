@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.pagination{
+  display: inline-block;
+}
+.pagination a{
+  color: black;
+  float: left;
+  text-decoration: none;
+  padding: 7px 18px;
+  transition: background-color 0.4s;
+  border: 1px solid blue;
+}
+.pagination a.active {
+  background-color: red;
+  color: white;
+  border: 1px solid black;
+}
+.pagination a:hover:not(.active){background-color: yellow;}
+</style>
+</head>
+<body>
+<p> Next/Previous buttons:</p>
+<div class="pagination">
+<a href="#">❮</a>
+<a href="#">❯</a>
+</div>
+<p>navigation pagination</p>
+<div class="pagination">
+<a href="#" class="active">home</a>
+<a href="#">Link1</a>
+<a href="#">Link2</a>
+<a href="#">Link3</a>
+</div>
+</body>
+</html>

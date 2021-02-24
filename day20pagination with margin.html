@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.center{
+  text-align: center;
+}
+.pagination{
+display: inline-block;
+}
+.pagination a{
+  color: red;
+  text-decoration: none;
+  padding: 15px 20px;
+  float: left;
+  transition: background-color .3s;
+  border: 1px solid green;
+  margin: 1px 4px;
+  font-size: 30px;
+
+}
+.pagination a.active{
+  background-color: yellow;
+  color: black;
+  border: 1px solid black;
+}
+.pagination a:hover:not(.active){background-color: black;}
+</style>
+</head>
+<body>
+<h1>simple pagination</h1>
+<div class="center">
+<div class="pagination">
+<a href="#">&laquo;</a>
+<a href="#">1</a>
+<a href="#">2</a>
+<a class="active" href="#">3</a>
+<a href="#">4</a>
+<a href="#">5</a>
+<a href="#">&raquo;</a>
+</div>
+</div>
+</body>
+</html>
