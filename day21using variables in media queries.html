@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width" initial-scale="1">
+<style>
+/*variable declaration*/
+:root{
+  --red: red;
+  --pink: pink;
+}
+.container{
+  --fontsize: 25px;
+}
+/*styles*/
+body{
+  background-color: var(--pink);
+
+}
+h2{
+  border-bottom: 2px solid var(--pink);
+
+}
+.container{
+  background-color: var(--red);
+  color: var(--pink);
+  padding: 7px;
+  font-size: var(--fontsize);
+}
+@media screen and (min-width: 450px){
+  .container{
+    --fontsize: 50px;
+  }
+  :root{
+    --pink: yellow;
+  }
+}
+</style>
+</head>
+<body>
+<h1>Using Variable in Media Queries</h1>
+<div class="container">
+  <h2>Lorem Ipsum</h2>
+  <p>When the browser's width is less than 450px, the font-size of this div is 25px. When it is 450px or wider, set the --fontsize variable value to 50px. Resize the browser window to see the effect.</p>
+</div>
+</body>
+</html>
