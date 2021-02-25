@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: black;
+  color: white;
+  width: 80%;
+  margin: 30px;
+  float: left;
+  text-align: center;
+
+}
+ul{
+  list-style: none;
+  width: 500px;
+  padding: 0;
+  margin:0;
+
+}
+li a{
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  height: 60px;
+
+}
+li a:hover{
+  background-color: grey;
+  color: black;
+
+}
+.main{
+  background-color: lightblue;
+  flex: 10%;
+  padding: 30px;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.image{
+  text-align: center;
+  background-color: white;
+  font-size: 15px;
+float: center;
+padding: 30px;
+margin: 8px;
+}
+.resume{
+  background-color: blue;
+  text-align: center;
+  float: center;
+  padding: 15px;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  text-align:center;
+  padding: 10px;
+
+}
+
+tr:nth-child(even) {background-color: white;}
+
+.swing{
+  background-color: grey;
+  padding: 90px;
+  margin: 50px;
+   color: white;
+  width: 50%;
+  text-align: center;
+}
+.contact{
+  background-color: lightgreen;
+  width: 50%;
+
+  float: left;
+
+  font-size: 20px;
+  margin: 50px;
+  text-align: center;
+}
+.text{
+  font-size: 20px;
+padding: 20px;
+  background: white;
+  color: black;
+  border-bottom: 2px solid black;
+  text-align: left;
+
+}
+.button{
+color: white;
+background-color: pink;
+width: 80px;
+margin: 10%;
+text-align: left;
+padding: 10px;
+
+  float: right;
+  border: 3px solid black;
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 40px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column" style="background-color: black;">
+	<div class="navbar">
+    <h1>My Logo</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">My Work</a></li>
+      <li><a href="#">Resume</a></li>
+      <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="column" style="background-color:lightblue;">
+    <div class="main">
+    <h3>About Me</h3>
+    <img src="emptyimage.jpg" style="height:100px;">
+    <p>Lorem ipusm god vitae condimentum,porta loctus vitaa,ultricies congue gravide diam non fringila.</p>
+    <p>Lorem ipusm god vitae condimentum,porta loctus vitaa,ultricies congue gravide diam non fringila.</p>
+  </div>
+</div>
+
+   <div class="column" style="background-color:white;">
+    <h2>MyWork</h2>
+ <p>some of my latest projects</p>
+ <div class="image">
+   <div class="column">
+  <img src="green.jpg" style="height:100px">
+</div>
+  <div class="column">
+ <img src="tiger.jpg" style="height:100px">
+</div>
+ <div class="column">
+ <img src="villa.jpg" style="height:100px">
+</div>
+ <div class="column">
+ <img src="nature.jpg" style="height:100px">
+</div>
+ <p>just call me awesome</p>
+</div>
+</div>
+
+
+  <div class="column" style="background-color:blue;">
+    <div class="resume">
+      <h2>Resume By</h2>
+      <p>A draft from my CV</p>
+      <table>
+        <tr>
+        <th>Year</th>
+        <th>Title</th>
+        <th>Where</th>
+        </tr>
+        <tr>
+        <td>2012-2016</td>
+        <td>The rest is history..</td>
+        <td>Lorem ipsum</td>
+        </tr>
+        <tr>
+        <td>2009-2012</td>
+        <td>Started my own company</td>
+        <td>My Garage</td>
+        </tr>
+        <tr>
+        <td>2008-2009</td>
+        <td>Started workingb for Lorem</td>
+        <td>London,UK</td>
+        </tr>
+        <tr>
+        <td>2005-2008</td>
+        <td>Degree in Bachelor of Design</td>
+        <td>Harvard,USA</td>
+        </tr>
+        <tr>
+        <td>2002-2002</td>
+        <td>Degree in Bacholor of Business</td>
+        <td>RMIT University,Melbourne,Australia</td>
+        </tr>
+        <tr>
+        <td>2002-2005</td>
+        <td>Degree in Bacholor of Business</td>
+        <td>RMIT University,Melbourne,Australia</td>
+        </tr>
+      </table>
+  </div>
+  </div>
+
+   <div class="column" style="background-color: grey;">
+     <div class="swing">
+       <h3>Swing By</h3>
+       <p>..for a cup of coffee, or whatever.</p>
+       <p>Chicogo.US</P>
+         <P>+00 1515151515</p>
+           <p>text@test.com</p>
+   </div>
+  </div>
+
+   <div class="column" style="background-color:lightgreen;">
+     <div class="contact">
+       <h4>Contact</h4>
+       <div class="text">
+         <lable>Name</lable>
+     </div>
+       <div class="text">
+         <lable>E-mail</lable>
+         </div>
+       <div class="text">
+         <lablel>Message</lablel>
+         </div>
+       <div>
+       <a class="button"> send </a>
+     </div>
+  </div>
+
+</div>
+
+</body>
+</html>
