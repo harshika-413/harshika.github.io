@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<style>
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: arial;
+  margin: 0;
+}
+.header{
+  background-color: black;
+  color: white;
+  width: 50%;
+  text-align: center;
+}
+ul{
+  list-style: none;
+  width: 750px;
+  padding: 0;
+  margin:0;
+
+}
+li a{
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  height: 60px;
+
+}
+li a:hover{
+  background-color: grey;
+  color: black;
+
+}
+.main{
+  background-color: lightblue;
+  flex: 50%;
+  padding: 20px;
+  float: left;
+  width: 47%;
+  text-align: center;
+}
+.row{
+  text-align: center;
+background-color: white;
+float: center;
+
+}
+.swing{
+  background-color: grey;
+  padding: 10px;
+   color: white;
+  width: 50%;
+  text-align: center;
+}
+.title{
+  background-color: lightgreen;
+  width: 50%;
+  padding: 20px;
+}
+@media screen and (max-width: 700px) {
+  .row, .header {
+    flex-direction: column;
+  }
+}
+</style>
+<body>
+
+  <div class="header">
+  <div class="navbar">
+    <h1>My Logo</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">MyWork</a></li>
+      <li><a href="#">Resume</a></li>
+      <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main">
+    <h3>About Me</h3>
+    <div class=:"column">
+    <img src="emptyimage.jpg" style="height:100px;">
+    <p>Lorem ipusm god vitae condimentum,porta loctus vitaa,ultricies congue gravide diam non fringila.</p>
+    <p>Lorem ipusm god vitae condimentum,porta loctus vitaa,ultricies congue gravide diam non fringila.</p>
+  </div>
+</div>
+
+  <div class="row">
+       <h2>MyWork</h2>
+    <p>some of my latest projects</p>
+    <div class="column">
+    <img src="green.jpg" style="height:100px">
+    <img src="tiger.jpg" style="height:100px">
+    <div class="column">
+    <img src="villa.jpg" style="height:100px">
+    <img src="nature.jpg" style="height:100px">
+    <p>just call me awesome</p>
+  </div>
+</div>
+  <div class="swing">
+    <h3>Swing By</h3>
+    <p>..for a cup of coffee, or whatever.</p>
+    <p>Chicogo.US</P>
+      <P>+00 1515151515</p>
+        <p>text@test.com</p>
+</div>
+        <div class="title">
+          <h4>Contact</h4>
+          <div class="text">
+            <lable>Name</lable>
+            <input type="text" name="value=">
+          </div>
+          <div class="text">
+            <lable>E-mail</lable>
+            <input type="text" name="value=">
+          </div>
+          <div class="text">
+            <lable>Messag</lable>
+            <input type="text" name="value=">
+          </div>
+          <a class="button"> send </a>
+</body>
+</html>

@@ -60,7 +60,7 @@ margin: 8px;
 }
 table {
   border-collapse: collapse;
-  width: 50%;
+  width: 100%;
 }
 
 th, td {
@@ -147,16 +147,16 @@ padding: 10px;
 	<div class="navbar">
     <h1>My Logo</h1>
     <ul>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">My Work</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#aboutme">About Me</a></li>
+      <li><a href="#mywork">My Work</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
       </ul>
     </div>
 
   </div>
 
-  <div class="column" style="background-color:lightblue;">
+  <div class="column" id="aboutme" style="background-color:lightblue;">
     <div class="main">
     <h3>About Me</h3>
     <img src="emptyimage.jpg" style="height:100px;">
@@ -165,7 +165,7 @@ padding: 10px;
   </div>
 </div>
 
-   <div class="column" style="background-color:white;">
+   <div class="column" id="mywork" style="background-color:white;">
     <h2>MyWork</h2>
  <p>some of my latest projects</p>
  <div class="image">
@@ -186,7 +186,7 @@ padding: 10px;
 </div>
 
 
-  <div class="column" style="background-color:blue;">
+  <div class="column" id="resume" style="background-color:blue;">
     <div class="resume">
       <h2>Resume By</h2>
       <p>A draft from my CV</p>
@@ -230,7 +230,7 @@ padding: 10px;
   </div>
   </div>
 
-   <div class="column" style="background-color: grey;">
+   <div class="column"  style="background-color: grey;">
      <div class="swing">
        <h3>Swing By</h3>
        <p>..for a cup of coffee, or whatever.</p>
@@ -240,7 +240,7 @@ padding: 10px;
    </div>
   </div>
 
-   <div class="column" style="background-color:lightgreen;">
+   <div class="column" id="contact" style="background-color:lightgreen;">
      <div class="contact">
        <h4>Contact</h4>
        <div class="text">

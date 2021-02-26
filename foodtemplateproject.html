@@ -1,0 +1,241 @@
+</!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body{
+  padding: 10%;
+  box-sizing: border-box;
+
+}
+.topmenu{
+  padding: 16px;
+  background-color: white;
+  float: center;
+  margin: auto;
+  max-width: 1000px;
+  font-size: 25px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.center{
+  float: center;
+  text-align: center;
+}
+.top{
+  max-width: 100%;
+  margin-top: 100px;
+    }
+    img{
+      vertical-align: middle;
+      text-align: center;
+
+    }
+    .column{
+      float: left;
+      padding: 5px;
+      width: 30%;
+      line-height: 20px;
+
+    }
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+margin-left: 20px;
+  padding: 40px;
+  float: center;
+}
+.pagination {
+  display: inline-block;
+  float: right;
+
+
+}
+
+.pagination a {
+  color: black;
+  float: center;
+
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: green;
+  color: white;
+}
+.about{
+  float: center;
+  height: 200px;
+  padding: 10px;
+  display: block;
+  min-width: 100px;
+  word-break: normal;
+  text-align:left;
+
+}
+h4{
+  font-size: 30px;
+text-align: center;
+}
+h6{
+  font-size: 20px;
+  text-align: center;
+}
+.footer{
+  text-align: left;
+
+  width: 100%;
+    float: center;
+  font-size: 20px;
+  margin: 10px;
+font-weight: 200px;
+}
+h3{
+  font-size: 20px;
+}
+
+.pagination a:hover:not(.active) {background-color: green;}
+@media screen and (max-width: 992px) {
+  .row {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .column {
+    width: 50%;
+  }
+}
+</style>
+<body>
+<!--sidebar-->
+<nav  id= "mysidebar" class= "mysidebar" style="display:none; z-index:1; width:30%; min-width:250px">
+<a href="javascript:void(0)" onclick="close()" class="sidebar-item-button">Close Menu</a>
+  <a href="#food" onclick="close()" class="sidebar-item-button">Food</a>
+    <a href="#About" onclick="close()" class="sidebar-item-button">About</a>
+  </nav>
+
+  <!--topmenu-->
+  <div class="topmenu">
+    <div class="menu" style="max-width:1200px;margin:auto">
+    <div class="left" onclick="open()">☰</div>
+    <div class="right">Mail</div>
+    <div class="center">My Food</div>
+  </div>
+</div>
+<!--mainpage-->
+<div class="row" style="max-width:100%;margin-top:100px" display:"block">
+  <!--first grid-->
+
+ <div class="column">
+     <img src="chicken.jpg" alt="chicken" style="width:100%" height="50%">
+      <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+
+     <div class="column">
+      <img src="steach.jpg" alt="steach" style="width:100%" height="50%">
+      <h3>Let Me Tell You About This Steak</h3>
+      <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum</p>
+    </div>
+    <div class="column">
+      <img src="cherry.jpg" alt="cherry" style="width:100%" height="50%">
+      <h3>Cherries, interrupted</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+         <p>What else?</p>
+    </div>
+  </div>
+  <!--second grid-->
+
+</div>
+<div class="column">
+    <img src="popsicle.jpg" alt="popsicle" style="width:100%" height="50%">
+     <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+     <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+   </div>
+
+    <div class="column">
+     <img src="salmon.jpg" alt="salmon" style="width:100%" height="50%">
+     <h3>Let Me Tell You About This Steak</h3>
+     <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum</p>
+   </div>
+   <div class="column">
+     <img src="chicken.jpg" alt="chicken" style="width:100%" height="50%">
+     <h3>Cherries, interrupted</h3>
+     <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        <p>What else?</p>
+   </div>
+</div>
+<!--pagination-->
+<div class="column">
+<div class="pagination">
+<a href="#">&laquo;</a>
+<a href="#">1</a>
+<a class="active" href="#">2</a>
+<a href="#">3</a>
+<a href="#">4</a>
+<a href="#">5</a>
+<a href="#">6</a>
+<a href="#">&raquo;</a>
+</div>
+</div>
+<hr>
+<!-- About Section -->
+  <div class="about">
+    <div class="column">
+    <h4>About Me, The Food Man</h4><br>
+    <img src="chef.jpg" alt="chef" style="width:100%">
+     <h4><b>I am Who I Am!</b></h4>
+      <h6><i>With Passion For Real, Good Food</i></h6>
+      <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+    <div class="footer">
+      <div class="column">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </div>
+
+    <div class="post">
+      <div class="column">
+          <h3>BLOG POSTS</h3>
+          <ul class="hoverable">
+            <li class="posts">
+              <img src="workshop.jpg"  style="width:50px" height="30px">
+              <span class="large">Lorem</span><br>
+              <span>Sed mattis nunc</span>
+            </li>
+            <li class="column">
+              <img src="gondol.jpg"  style="width:50px"height="30px">
+              <span class="large">Ipsum</span><br>
+              <span>Praes tinci sed</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="column">
+            <h3>POPULAR TAGS</h3>
+            <p>
+              <span class="red">Travel</span> <span class="black">New York</span> <span class="grey">Dinner</span>
+              <span class="blue">Salmon</span> <span class="green">France</span> <span class="drinks">Drinks</span>
+              <span class="pink">Ideas</span> <span class="red">Flavors</span> <span class="black">Cuisine</span>
+              <span class="grey">Chicken</span> <span class="grey">Dressing</span> <span class="grey">Fried</span>
+              <span class="green">Fish</span> <span class="dark-grey">Duck</span>
+            </p>
+          </div>
+        </footer>
+      </div>
+
+</body>
+</html>
