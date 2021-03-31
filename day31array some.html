@@ -1,0 +1,25 @@
+<doctype html>
+<html>
+<body>
+
+<h2>JavaScript Array.some()</h2>
+
+<p>The some() method checks if some array values pass a test.</p>
+
+<p id="demo"></p>
+
+<script>
+var numbers = [25, 45, 85, 40, 63, 39];
+var someOver40 = numbers.some(myFunction);
+
+document.getElementById("demo").innerHTML = "Some over 40 is " +  someOver40;
+
+
+function myFunction( value, index, array) {
+ return value > 40;
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<doctype html>
+<html>
+<body>
+
+<h2>JavaScript Array.findIndex()</h2>
+
+<p id="demo"></p>
+
+<script>
+var numbers = [5, 15, 64, 42, 32,59];
+var first = numbers.findIndex(myFunction);
+
+ document.getElementById("demo").innerHTML = "First number over 18 is " + first;
+
+function myFunction(value, index, array){
+   return value > 18;
+}
+</script>
+
+</body>
+</html>

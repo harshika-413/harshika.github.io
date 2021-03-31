@@ -1,0 +1,82 @@
+<doctype html>
+<html>
+<body>
+
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var today = new Date();
+
+ var day;
+ switch(new Date().getDay()){
+ case 0:
+ day = "Sunday";
+ break;
+ case 1:
+ day = "Monday";
+ break;
+ case 2:
+ day = "Tuesday";
+ break;
+ case 3:
+ day = "Wednesday";
+ break;
+ case 4:
+ day = "Thursday";
+ break;
+ case 5:
+ day = "Friday";
+ break;
+ case 6:
+ day = "Saturday";
+ break;
+
+
+ }
+ document.getElementById("demo1").innerHTML = "Today is: " + day;
+
+</script>
+
+<script>
+
+
+var hour = today.getHours();
+var minute = today.getMinutes();
+var second = today.getSeconds();
+var prepand = (hour >= 12)? " PM ":" AM ";
+hour = (hour >= 12)? hour - 12: hour;
+
+if (hour===0 && prepand ===' PM ')
+{
+  if (minute===0 && second===0)
+{
+
+hour=12;
+prepand = ' Noon';
+}
+else {
+  hour = 12;
+  prepand = 'PM';
+}
+}
+if(hour === 0 && prepand=== ' AM ')
+{
+if (minute===0 && second===0)
+{
+  hour = 12;
+  prepand = 'Midnight';
+}
+else{
+  hour = 12;
+  prepand = ' AM ';
+}
+}
+console.log("Current Time :" + hour + prepand + " : " + minute + " : " + second);
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<doctype html>
+<html>
+<body>
+
+<h2>JavaScript Array.filter()</h2>
+
+<p>Creates a new array with all array elements that passes a test.</p>
+
+<p id="demo"></p>
+
+<script>
+var numbers = [25, 45, 85, 67,142,39];
+var over40 = numbers.filter(myFunction);
+
+document.getElementById("demo").innerHTML = over40;
+
+
+function myFunction(value, index, array) {
+ return value > 40;
+}
+
+</script>
+
+</body>
+</html>
