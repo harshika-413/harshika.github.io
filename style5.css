@@ -1,0 +1,145 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+.header{
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+
+}
+img{
+  width: 1500px;
+  height: 600;
+  vertical-align: middle;
+  padding: 0px 10px;
+  border-style: none;
+
+}
+h1,h2,h3,h4,h5{
+  font-weight: 400;
+  font-family: "Segoe UI",Arial,sans-serif;
+  margin: 10px 0px;
+}
+.center{
+  text-align: center;
+  color: white;
+  padding: 12px 24px;
+  border: 2px solid grey;
+  position: absolute;
+  top:30%;
+  left: 48%;
+  transform: translate(-50%);
+}
+.container h1{
+  font-size: 50px;
+  letter-spacing: 6px;
+}
+.container h3{
+  font-size: 24px;
+  letter-spacing: 4px;
+
+}
+.navbar{
+  bottom: 145px;
+  display: inline-block;
+  color: black;
+  width: auto;
+  background-color: grey;
+  width: auto;
+  border-radius: 4px;
+  position: absolute;
+  left: 42%;
+
+}
+.navbar a{
+  text-decoration: none;
+  color: inherit;
+  background-color: lightgrey;
+  border: none;
+  display: block;
+  float:left;
+  text-align: center;
+  border-radius: 4px;
+  vertical-align: middle;
+  padding: 8px 16px;
+  overflow: hidden;
+  font-size: 20px;
+}
+.container1{
+  margin-top: 34px;
+    padding: 12px 24px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container1 img{
+  margin: 10px;
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+.contact{
+  background-color: grey;
+  position: relative;
+  margin-left: 320px;
+  margin-right: 300px;
+  margin-top: 30px;
+}
+.contact h3{
+  text-align: center;
+  margin:20px 0px;;
+  padding: 20px;
+  font-size: 24px;
+  color: white;
+}
+.contact p{
+  margin: 10px;
+  padding-left: 60px;
+  display: block;
+  font-size: 18px;
+  color: white;
+}
+form{
+  margin-top: 0px;
+}
+.section{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+form label{
+  margin: 20px;
+font-size: 20px;
+
+}
+form input{
+  border: 1px solid grey;
+  padding: 8px;
+  display: block;
+  font-size: 25px;
+  width: 95%;
+  overflow: visible;
+  font: inherit;
+  margin: 20px ;
+}
+button{
+  color: white;
+  background-color: black;
+  width: 95%;
+  height: 50px;
+  font-size: 20px;
+  margin: 20px;
+  margin-bottom: 30px;
+  padding: 10px;
+
+}
+button:hover{
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}

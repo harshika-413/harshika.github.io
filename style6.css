@@ -1,0 +1,234 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.navbar{
+  position: fixed;
+  width:100%;
+  top:0;
+  z-index: 1;
+}
+.logo{
+  background-color: pink;
+  width: 100%;
+  overflow: hidden;
+  letter-spacing: 5px;
+}
+.logo a{
+  color: black;
+  font-size: 20px;
+  padding: 14px 26px;
+  display: block;
+  float : left;
+  text-decoration: none;
+}
+.left{
+  float: right;
+  color: black;
+  letter-spacing: 4px;
+  }
+.left a{
+  display: block;
+  padding: 14px 26px;
+float: left;
+width: auto;
+
+}
+.content{
+  position: relative;
+  letter-spacing: 5px;
+
+}
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  width: 1500px;
+}
+.center{
+  position: absolute;
+  margin-top: 16px;
+  text-align: center;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 4px;
+
+}
+.center h1{
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+  display: block;
+
+}
+.class{
+  color: white;
+  background-color: black;
+  font-size: 35px;
+  padding: 8px 16px;
+  box-sizing: inherit;
+  text-align: center;
+  opacity: 0.75;
+
+}
+.projects{
+  max-width:1500px;
+  padding: 8px 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding: 4px 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.container h3{
+  border-color: 1px solid green;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid grey;
+  margin: 10px;
+  font-size: 25px;
+  display: block;
+}
+
+img{
+  vertical-align: middle;
+  text-align: center;
+
+}
+.column{
+  float: left;
+  padding: 16px;
+  width: 25%;
+  position: relative;
+  line-height: 15px;
+
+}
+.row::after {
+content: "";
+display: table;
+clear: both;
+margin-left: 20px;
+padding: 40px;
+float: center;
+padding-bottom: 4px;
+}
+.top {
+  position: absolute;
+  left: 16px;
+  font-size: 18px;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+}
+.container1{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding: 0 16px;
+  }
+.container1 h3{
+  font-size: 25px;
+  margin: 0 28px;
+  border-color: 1px solid green;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid grey;
+
+}
+.container1 p{
+  box-sizing: inherit;
+  display: block;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: 0 28px;
+  margin-top: 20px;
+  line-height: 25px;
+}
+.column h3{
+  font-weight: 400px;
+  margin: 20px 0;
+  font-family:monospace;
+  font-size: 25px;
+}
+.opacity {
+  opacity: 0.69px;
+  margin: 25px 0;
+
+}
+.column p{
+  box-sizing: inherit;
+  display: block;
+  margin: 14px 0px;
+  line-height: 20px;
+  font-size: 18px;
+}
+button{
+  color: black;
+  background-color: lightgrey;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 8px 16px;
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+}
+.contact{
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding: 5px 16px;
+}
+.contact h3{
+  border-color: lightgrey;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid lightgrey;
+  margin: 10px 0;
+  font-size: 25px;
+  font-family:serif;
+
+}
+.contact p{
+  color: black;
+  font-size: 18px;
+  font-family:sans-serif;
+
+}
+form{
+  display: block;
+  margin-top: 0em;
+}
+.border{
+  border: 1px solid lightgrey;
+  padding: 8px;
+  display: block;
+  color: grey;
+  width: 100%;
+  margin: 20px 0;
+  font-size: 16px;
+}
+.contact button{
+  color: white;
+  background-color: black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  text-align: center;
+  border: none;
+  display: inline-block;
+  text-transform: none;
+  width: auto;
+}
+.container2{
+  padding: 10px 16px;
+margin: 10px 0;
+}
+.container2 img{
+  width: 100%;
+  height: auto;
+}
