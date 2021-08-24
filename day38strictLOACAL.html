@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<body>
+<p>"use strict" in a function will only cause errors in that function.</p>
+
+<p>Activate debugging in your browser (F12) to see the error report.</p>
+
+
+<script>
+x = 3.16;
+myFunction();
+
+function myFunction(){
+"use strict";
+x = 4.15;
+}
+
+</script>
+
+</body>
+</html>

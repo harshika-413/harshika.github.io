@@ -1,0 +1,122 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+section{
+  font-size: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding: 4px 16px;
+}
+.art{
+  color: black;
+  background-color: white;
+  float: left;
+  display: inline-block;
+  padding: 34px 20px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.about{
+  color: black;
+  background-color: white;
+  float: right;
+  display: inline-block;
+  padding: 34px 20px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.row{
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.half{
+float : left;
+width: 49.99%;
+
+}
+.half img{
+  margin-bottom: -8px;
+  vertical-align: middle;
+}
+.footer{
+  color:black;
+  background-color: #f1f1f1;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+}
+h2{
+  font-weight: 400;
+  margin: 10px 0;
+}
+.image{
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  max-width: 100%;
+  height: auto;
+
+}
+form{
+margin: auto;
+width:60%;
+display: block;
+}
+form p{
+  font-weight: 400;
+  line-height: 30px;
+}
+.text{
+  display: block;
+  color: red;
+  font-size: 20px;
+}
+
+.section1{
+  margin-top: 16px;
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 15px;
+
+}
+b{
+  font-weight: bolder;
+}
+.input{
+  border: 1px solid lightgrey;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  margin: 0px;
+  font: inherit;
+  box-sizing: inherit;
+}
+
+.button{
+  color: white;
+  background-color: grey;
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 8px 16px;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+}
+.last{
+  color: inherit;
+  background-color: #00000000;
+  cursor: pointer;
+
+  font-size: 15px;
+}

@@ -1,0 +1,48 @@
+.center{
+margin-bottom:16px;
+text-align: center;
+display: block;
+}
+h1{
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 35px;
+  margin-top: 70px;
+  color: grey;
+
+}
+p{
+  color: grey;
+  line-height: 30px;
+}
+.padding{
+  padding-top: 14px;
+  padding-bottom: 16px;
+
+}
+.button{
+  color: #fff;
+  background-color: grey;
+  border: none;
+  padding: 8px 16px;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  font: inherit;
+}
+.row{
+  content: "";
+  display: table;
+  clear: both;
+}
+.column{
+  width: 33.33%;
+  float: left;
+
+}
+img{
+  margin-bottom: -7px;
+  vertical-align: middle;
+  border-style: none;
+  width: 100%;
+}
